@@ -13,18 +13,18 @@ calcola.addEventListener('click',function(){
 
 
 
-  if(eta==1){
+  if (eta==1) {
 
     var offerta = "Nessuna offerta applicata";
     prezzoOut = prezzokm;
 
-  } else if(eta == 2){
+  } else if (eta == 2) {
 
     var offerta = "Sconto minorenne applicato";
     prezzoOut = prezzokm - ((prezzokm * 20) / 100);
     prezzoOut = prezzoOut.toFixed(2);
 
-  }else if(eta == 3){
+  } else if (eta == 3) {
 
     var offerta = "Sconto Over 65 applicato";
     prezzoOut = prezzokm - ((prezzokm * 40) / 100);
@@ -32,14 +32,14 @@ calcola.addEventListener('click',function(){
 
   }
 
-      var carrozza = Math.floor(Math.random() * 10) + 1;
-      var codicecp = Math.floor(Math.random() * 99999) + 1;
+  var carrozza = Math.floor(Math.random() * 10) + 1;
+  var codicecp = Math.floor(Math.random() * 99999) + 1;
 
 
-        document.getElementById("nomepasseggero").innerHTML = nome;
-        document.getElementById("offerta").innerHTML = offerta;
-        document.getElementById("carrozza").innerHTML = carrozza;
-        document.getElementById("codicecp").innerHTML = codicecp;
-        document.getElementById("costobiglietto").innerHTML = prezzoOut+"€";
-        biglietto.style.display ="block"
+  document.getElementById("nomepasseggero").innerHTML = nome;
+  document.getElementById("offerta").innerHTML = offerta;
+  document.getElementById("carrozza").innerHTML = carrozza;
+  document.getElementById("codicecp").innerHTML = codicecp;
+  document.getElementById("costobiglietto").innerHTML = prezzoOut+"€";
+  biglietto.style.display ="block"
 })
