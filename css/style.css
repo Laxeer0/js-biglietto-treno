@@ -1,0 +1,45 @@
+body{
+  background-color: #cf007f;
+}
+
+.custom-jumbotron{
+  margin-top:50px;
+}
+
+.titolo-biglietto{
+  text-align: center;
+  margin-bottom:30px;
+}
+
+.submit-button{
+  margin-top:20px;
+  text-align: center;
+}
+
+.txt-white{
+  color:#fff;
+}
+
+.hr-white{
+  border: 1px solid white;
+}
+
+.black-td{
+  background-color:#343a40;
+  color:white;
+}
+
+label{
+  color: #cf007f;
+}
+
+.btn-magenta-outline{
+  color: #cf007f;
+  border: 1px solid #cf007f;
+  background-color: lightgray;
+}
+.btn-magenta-outline:hover{
+  background-color:white;
+    color: #cf007f;
+
+}
